@@ -1,0 +1,588 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Kenia&family=Montserrat:ital,wght@1,300&display=swap');
+
+main{
+	height: 100%;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.nav_bar{
+	width: 100%;
+	height: 100px;
+	background: transparent;
+}
+.nav_bar p{
+	font-size: 20px;
+	font-weight: 300;
+}
+.trans{
+	background: transparent;
+}
+.buton a{
+	color: white;
+	font-weight: 600;
+	background-color: #DD5AC0;
+	padding: 7px 30px;
+	border-radius: 20px;
+	box-shadow: 0 -10px 30px 20px rgb(87%, 35%, 75%, 0.5);
+	transition: 500ms all;
+	font-family: 'Comfortaa', cursive;
+}
+.buton a:hover{
+	padding: 10px 34px;
+	box-shadow: 0 -10px 30px 20px rgb(87%, 35%, 75%, 0.7);
+}
+@media (min-width: 500px){
+	.buton a{
+	background-color: #DD5AC0;
+	padding: 10px 45px;
+	border-radius: 20px;
+	box-shadow: 0 -10px 30px 20px rgb(87%, 35%, 75%, 0.5);
+	transition: 500ms all;
+	font-family: 'Comfortaa', cursive;
+}
+}
+.buton a:hover{
+	padding: 14px 49px;
+	box-shadow: 0 -10px 30px 20px rgb(87%, 35%, 75%, 0.7);
+}
+.buton p{
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Comfortaa', cursive;
+}
+.first{
+	height: 120%;
+	width: 100%;
+	background: url(../img/Anna.png) center/80vh no-repeat, url(../img/Ellipse%205.png) center/cover no-repeat;
+}	
+.button{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.button a{
+	width: 300px;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	padding: 25px 25px;
+	border-radius: 40px;
+	text-align: center;
+	margin: 10px;
+	transform: scale(1);
+	transition: 500ms all;
+	font-family: 'Comfortaa', cursive;
+	border: 2px solid white;
+}
+.button a:hover{
+	transform: scale(1.1);
+}
+.keratin{
+	line-height: 80px;
+	font-size: 100px;
+	color: white;
+	padding-top: 50vh;
+	margin-bottom: 20px;
+	font-weight: 100;
+	font-family: 'Kenia', cursive;
+}
+@media (max-width: 500px){
+	.keratin{
+		line-height: 100px;
+	font-size: 45px;
+	color: white;
+	padding-top: 40vh;
+		line-height: 40px;
+	margin-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	}
+}
+.section{
+	width: 100%;
+}
+.title{
+	height: 100px;
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Comfortaa', cursive;
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: auto;
+}
+@media (max-width: 1450px){
+	.cards{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: auto;
+	padding: 0px 20px;
+}
+}
+.card{
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 50px;
+	border: 1px solid transparent;
+	margin-top: 100px;
+	background-color: black;
+}
+.card h1{
+	margin-top: -70px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.card h4{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	opacity: 0.75;
+	font-family: 'Montserrat', sans-serif;
+}
+.third{
+	width: 100%;
+	font-family: 'Comfortaa', cursive;
+	height: 40%;
+	margin-top: 100px;
+}
+.nI p{
+	width: 80%;
+	margin: auto auto;
+	border-radius: 50px;
+	color: black;
+	border: 1px solid transparent;
+	padding: 30px 40px 0px 40px;
+	background-color: white;
+}
+.nI p{
+	font-size: 25px;
+	text-align: center;
+}
+.nI a{
+	color: white;
+	border-radius: 20px;
+	padding: 20px 30px;
+	background-color: #DD5AC0;
+	transition: 500ms all;
+	transform: scale(1);
+}
+.nI a:hover{
+	padding: 22px 33px;
+	font-size: 27px;
+}
+@media (max-width: 650px){
+	.nI p{
+	width: 80%;
+	margin: auto auto;
+	border-radius: 50px;
+	color: black;
+	border: 1px solid transparent;
+	padding: 20px 20px 0px 20px;
+	background-color: white;
+}
+.nI p{
+	font-size: 20px;
+	text-align: center;
+}
+.nI a{
+	color: white;
+	border-radius: 20px;
+	padding: 10px 20px;
+	background-color: #DD5AC0;
+}
+}
+.four{
+	margin-top: 200px;
+	width: 100%;
+	background: url(../img/Frame%202.png) center/cover no-repeat;
+	padding-bottom: 250px;
+}
+.Cards{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	justify-content: center;
+}
+@media (max-width: 1450px){
+	.Cards{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	}}
+.Card{
+	width: 300px;
+	height: 300px;
+	background-color: #7A1F66;
+	padding: 30px;
+	margin: 30px;
+	border-radius: 40px;
+}
+.Card h1{
+	width: 210px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 25px;
+	font-weight: 800;
+	color: white;
+}
+.Card_1{
+	background-color: silver;
+}
+.Card_1 h1{
+	color: #7A1F66;
+}
+.Card p{
+	font-family: 'Comfortaa', cursive;
+	color: white;
+	font-size: 13px;
+}
+.Card_1 p{
+	color: #7A1F66;
+}
+.Card img{
+	margin-top: -200px;
+	margin-left: 160px;
+}
+.minim{
+	margin: auto;
+}
+.Tarifs{
+	width: 100%;
+}
+.Tar_1{
+	width: 70%;
+	background: rgb(253,102,192);
+background: radial-gradient(circle, rgba(253,102,192,1) 0%, rgba(251,151,211,1) 100%);
+	border-radius: 100px;
+	padding-top: 50px;
+	margin: auto;
+	font-family: 'Comfortaa', cursive;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+}
+.Tar_1 h1{
+	margin: auto;
+	text-align: center;
+	color: white;
+	border-bottom: 4px solid black;
+	border-radius: 50px;
+	width: 400px;
+}
+.cds{
+	width: 400px;
+	display: flex;
+	margin: auto;
+	margin-top: 20px;
+}
+.cds h4{
+	width: 200px;
+	text-align: center;
+	padding: 20px;
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	margin-left: 10px;
+	font-weight: 900;
+}
+.Tar_1 li{
+	color: white;
+	font-size: 20px;
+	padding: 5px;
+}
+.tarif{
+	padding: 50px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.tarif ul{
+	margin: 0px 20px 0px 20px;
+}
+.Cost{
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: center; 
+}
+.Cost h5{
+	width: 200px;
+	background-color: white;
+	color: red;
+	text-align: center;
+	padding: 15px 10px;
+	border-radius: 40px;
+	font-size: 20px;
+	font-weight: 900;
+}
+@media (min-width:500px){
+	.Cost{
+	margin-top: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.Cost h5{
+	width: 300px;
+	background-color: white;
+	color: red;
+	text-align: center;
+	padding: 15px 20px;
+	border-radius: 40px;
+	font-size: 25px;
+	font-weight: 900;
+}
+}
+span{
+	color: green;
+	padding-left: 10px;
+	font-weight: 900;
+}
+.cost{
+	display: flex;
+	justify-content: center;
+}
+.cost a{
+	font-size: 25px;
+	padding: 20px;
+	width: 300px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 900;
+	background-color: black;
+	color: rgb(253,102,192);
+	border-radius: 30px;
+	text-align: center;
+	transform: scale(1);
+	transition: 650ms;
+}
+.cost a:hover{
+	transform: scale(1.1);
+	background-color: white;
+}
+@media (max-width: 706px){
+	.Tar_1{
+		width: 95%;
+	}
+	.Tar_1 h1{
+		width: 95%;
+		padding: 10px;
+	}
+	.tarif ul{
+	margin: 0px;
+	}
+	.cds{
+		width: 100%;
+		display: flex;
+		align-content: center;
+	}
+	.cds h4{
+		font-size: 15px;
+		width: 150px;
+		margin: auto;
+	}
+	.tarif li{
+		width: 100%;
+		font-size: 17px;
+		padding: 5px;
+	}
+	.cost a{
+		width: 230px;
+		border-radius: 40px;
+	}
+}
+.Mang{
+	width: 100%;
+}
+.Mng{
+	background-color: white;
+	width: 50%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	justify-content: center;
+	border-radius: 50px;
+	text-align: center;
+}
+.manager{
+	width: 400px;
+	padding: 50px 0px 0px 0px;
+}
+.Mng img{
+	height: 250px;
+	margin-top: 50px;
+}
+.Mng p{
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	font-weight: 900;
+}
+.Mng h4{
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+}
+.manager a{
+	width: 200px;
+	background-color: rgb(253,102,192);
+	padding: 15px 20px;
+	border-radius: 20px;
+	margin-top: 1000px;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+	transition: 500ms;
+}
+.manager a:hover{
+	background-color: black;
+}
+@media (max-width: 1400px) and (min-width: 701px){
+	.Mng{
+		width: 80%;
+	}
+}
+@media (max-width: 700px){
+	.Mng{
+		width: 95%;
+	}
+}
+
+.colr a{
+	background-color: #D14AC0;
+	font-size: 20px;
+	border: 0px solid black;
+}
+.aut{
+	height: 100vh;
+	widows: 100%;
+}
+.Aut{
+	margin: auto;
+	width: 90%;
+	height: 100%;
+	padding: 60px 100px;
+	display: flex;
+	background: url(../img/Anna.png) center/50vh no-repeat;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+.Aut h1{
+	margin-top: 50px;
+	color: white;
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 900;
+}
+.Aut p{
+	color: gray;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+@media (max-width: 800px){
+	.Aut p{
+	color: silver;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+		width: 100%;
+}
+	.Aut{
+	margin: auto;
+	width: 90%;
+	height: 100%;
+	padding: 50px 20px;
+	display: flex;
+	background: url(../img/Anna.png) center/50vh no-repeat;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+}
+.hocr a{
+	transition: 500ms all;
+}
+.hocr a:hover{
+	background-color: white;
+	color: black;
+}
+.foot{
+	margin: auto;
+	margin-top: 100px;
+	width: 60%;
+	height: 400px;
+}
+.accordion-item{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+}
+.accordion-button{
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 10px 0px rgb(253,102,192);
+}
+.accordion-button:enabled{
+	color: white;
+	background-color: black;
+	border: 1px solid black;
+	box-shadow: 0px 1px 0px 0px rgb(253,102,192);
+}
+.accordion-button:not(.collapsed)::after{
+	background-image: none;
+}
+@media (max-width: 800px){
+	.foot{
+		width: 90%;
+	}
+}
+.contacts{
+	height: 100vh;
+	margin-top: 100px;
+	width: 100%;
+}
+.rev{
+	font-size: 30px;
+	font-family: 'Comfortaa', cursive;
+	color: rgb(253,102,192);
+	font-weight: 900;
+	margin: auto;
+	text-align: center;
+}
+.lst{
+	margin: auto;
+	text-align: center;
+}
+.lst input{
+	text-align: center;
+	margin-top: 10px;
+	width: 350px;
+	padding: 15px; 30px;
+	border-radius: 30px;
+}
+.list{
+	text-align: center;
+	margin: auto;
+}
